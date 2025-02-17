@@ -1,0 +1,165 @@
+/* Estilos generales */
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #d171cb;
+ }
+
+
+ /* Estilos para el encabezado */
+ header {
+    background-color: #f0aa14;
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+    }
+   
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+   
+    nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    }
+   
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+   
+    /* Estilos para el contenido principal */
+    main {
+    display: flex;
+    flex-direction: row;
+    }
+   
+   
+
+section {
+flex-basis: 80%;
+padding: 20px;
+background-color: #b13737;
+margin-bottom: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+background-color: #f06514;
+color: #000000;
+margin-top: 0;
+font-size: 30px;
+padding: 5px;
+}
+
+/*Estilos para el menú de navegación de la pagina */
+div{
+  font-size: 20;
+  margin: 5;
+  background-color: #ff748b;
+
+}
+   
+    /* Estilos para la barra lateral de búsqueda */
+    aside{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      height: 0px;
+      background-color: #f35f03;
+      justify-content: flex-end;
+      
+
+    }
+
+   .search-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    background-color: #1426f0;
+    border-radius: 5px;
+      box-shadow:2px 5px #000000;
+
+   }
+    /* Estilos para los enlaces */
+    a {
+    color: #1de448;
+    }
+    
+ a:hover {
+    text-decoration: underline;
+    }
+
+    /*Estilo para el formulario*/
+    form{
+      background-color: rgb(224, 135, 135);
+      margin: 5px;
+      padding: 5px;
+    }
+    h1{
+      background-color: #f0aa14;
+      padding: 5px;
+    }
+
+/*Estilos para la tabla */
+    table{
+      background-color: #ec0a0a;
+      font-size: 30;
+    }
+    thead{
+      background-color: #000000;
+      color: #f5f5f5;
+    }
+    /*Estilo para la primera columna*/
+    tr:nth-child(2){
+      background-color: #dd0000;
+    }
+    /*Estilo para la segunda columna*/
+    tr:nth-child(2){
+      background-color: #f35f03;
+    }
+
+     /*Estilo para la tercera columna*/
+     tr:nth-child(3){
+      background-color: #eeff00;
+    }
+
+     /*Estilo para la cuarta columna*/
+     tr:nth-child(4){
+      background-color: #008815;
+    }
+
+     /*Estilo para la quinta columna*/
+     tr:nth-child(5){
+      background-color: #2303f3;
+    }
+
+
+    /* Estilos para el pie de página */
+footer {
+  background-color: #ffffff;
+  color: #05d821;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  }
+  
+  footer ul li {
+  margin-right: 10px;
+  }
+  footer ul li a {
+      color: #fff;
+      text-decoration: none;
+      }
